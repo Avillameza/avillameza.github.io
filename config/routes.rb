@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  resources :portfolios
+  resources :portfolios, except: [:show]
+
+  #update path from portfolios to portfolio for show
+  get 'portfolio/:id', to: 'portfolios#show', as: 'portfolio_show'
+
   #declare and reroute so that the url is not pages/X
   get 'about-me', to: 'pages#about'
   get 'contact', to: 'pages#contact'
