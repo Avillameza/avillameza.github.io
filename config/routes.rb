@@ -1,8 +1,19 @@
 Rails.application.routes.draw do
-  resources :portfolios
-  get 'pages/home'
-  get 'pages/about'
-  get 'pages/contact'
-  resources :blogs
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :portfolios, except: [:show]
+
+  #update path from portfolios to portfolio for show
+  get 'portfolio/:id', to: 'portfolios#show', as: 'portfolio_show'
+
+  #declare and reroute so that the url is not pages/X
+  get 'about-me', to: 'pages#about'
+  get 'contact', to: 'pages#contact'
+
+  resources :blogs do
+    member do
+      get :toggle_status
+    end
+  end
+
+  #Setting the home page, does not have to be called homw
+  root to: 'pages#home'
 end
