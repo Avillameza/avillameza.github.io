@@ -56,6 +56,9 @@ gem 'devise', '~> 4.8'
 gem 'bootstrap', '~> 5.1.0'
 gem 'jquery-rails'
 
+#petergate
+gem 'petergate', '~> 2.0', '>= 2.0.1'
+
 #my gems
 # gem 'villaana_view_tool', git: 'https://github.com/Avillameza/villaana_view_tool'
 gem 'villaana_view_tool', '~> 0.1.0'
