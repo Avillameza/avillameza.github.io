@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/Avillameza/villaana_view_tool
-  revision: 0136e5092f1e170f24f164c473217354aabe1188
-  specs:
-    villaana_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -196,6 +190,7 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    villaana_view_tool (0.1.0)
     warden (1.2.9)
       rack (>= 2.0.9)
     web-console (4.1.0)
@@ -234,7 +229,7 @@ DEPENDENCIES
   spring
   turbolinks (~> 5)
   tzinfo-data
-  villaana_view_tool!
+  villaana_view_tool (~> 0.1.0)
   web-console (>= 4.1.0)
   webpacker (~> 5.0)
 

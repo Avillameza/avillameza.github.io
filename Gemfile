@@ -57,4 +57,5 @@ gem 'bootstrap', '~> 5.1.0'
 gem 'jquery-rails'
 
 #my gems
-gem 'villaana_view_tool', git: 'https://github.com/Avillameza/villaana_view_tool'
+# gem 'villaana_view_tool', git: 'https://github.com/Avillameza/villaana_view_tool'
+gem 'villaana_view_tool', '~> 0.1.0'
