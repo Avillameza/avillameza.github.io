@@ -16,18 +16,15 @@
   <body>
     <%= render 'shared/blog_nav' %>
 
-    # Start of blog header
     <div class="container">
-      <h1 class=blog-title">The Blog</h1>
+      <h1 class=blog-title">My Blog</h1>
       <p class="lead blog-description">Sample blog </p>
+      <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin)%>
+      <p style="margin-bottom: 4em"></p>
     </div>
-    # End of blog header
 
-    # Start or container and row elements
     <div class="container">
       <div class="row">
-
-        
 
         <%= yield %>
 
@@ -68,21 +65,17 @@
           </div>
         </div>
         # End of sidebar
-
-        # Start of Footer
-        <footer class="blog-footer">
-          <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-          <p>
-            <a href="#">Back to top</a>
-          </p>
-        </footer>
-        # End of Footer
-
-        <%= render "shared/nav", location: 'bottom' %>
-
-        <%= source_helper("blog") %>
-
       </div>
+
+      <footer class="blog-footer">
+        <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        <p>
+          <a href="#">Back to top</a>
+        </p>
+      </footer>
+
+      <%= source_helper("blog") %>
+
     </div>
   </body>
 </html>
