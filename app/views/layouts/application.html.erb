@@ -6,28 +6,26 @@
 
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
-    #<%= csp_meta_tag %>
-    <meta name="keywords" content= "<%=@seo_keywords %>" >
+    <%= csp_meta_tag %>
+    <meta name="keywords" content= "<%= @seo_keywords %>" >
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <body class="d-flex h-100 text-center text-white bg-dark">
-    
-      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <%= render "shared/application_nav" %>
+  <body class="d-flex h-100 text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <%= render "shared/application_nav" %>
 
-        <%= login_helper %>
+      
 
+      <div class="d-flex flex-column min-vh-100 justify-content-center">
         <%= yield %>
-
-        <%= copyright_generator %>
-
-        <%= source_helper("application") %>
       </div>
 
-    </body>
+      <%= render "shared/application_footer" %>
+
+      <%= source_helper("application") %>
+    </div>
   </body>
 </html>
