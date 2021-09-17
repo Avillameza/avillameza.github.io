@@ -66,3 +66,5 @@ gem 'villaana_view_tool', '~> 0.1.0'
 #front end
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.7'
 gem 'kaminari', '~> 1.2', '>= 1.2.1'
+
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
