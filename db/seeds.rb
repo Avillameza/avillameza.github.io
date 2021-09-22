@@ -1,15 +1,7 @@
-3.times do |topic|
-    Topic.create!(
-        title: "Topic #{topic}"
-    )
-end
-
-puts "3 Topics created"
-
 10.times do |blog|
     Blog.create!(
         title: "My Blog Post #{blog}",
-        body: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium", topic_id: Topic.last.id
+        body: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium"
     )
 end
 
