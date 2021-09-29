@@ -25,16 +25,6 @@ ActiveRecord::Schema.define(version: 2021_09_22_043755) do
     t.index ["slug"], name: "index_blogs_on_slug", unique: true
   end
 
-  create_table "comments", force: :cascade do |t|
-    t.text "content"
-    t.bigint "user_id", null: false
-    t.bigint "blog_id", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["blog_id"], name: "index_comments_on_blog_id"
-    t.index ["user_id"], name: "index_comments_on_user_id"
-  end
-
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string "slug", null: false
     t.integer "sluggable_id", null: false
@@ -89,7 +79,5 @@ ActiveRecord::Schema.define(version: 2021_09_22_043755) do
   end
 
   add_foreign_key "blogs"
-  add_foreign_key "comments", "blogs"
-  add_foreign_key "comments", "users"
   add_foreign_key "technologies", "portfolios"
 end
