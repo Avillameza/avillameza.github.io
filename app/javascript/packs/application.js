@@ -12,8 +12,6 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
-socket = io.listen(process.env.PORT);
-
 //= require jquery3
 //= require bootstrap-sprockets
 //= require popper
