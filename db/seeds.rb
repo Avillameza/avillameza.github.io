@@ -18,9 +18,19 @@ puts "5 skills created"
 
 1.times do |portfolio_item|
     Portfolio.create!(
-        title: "Portfolio title: #{portfolio_item}",
-        subtitle: "Ruby on Rails",
-        body: "totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur",
+        title: "Ruby on Rails Website | Portfolio #{portfolio_item}",
+        subtitle: "A website that houses my software portfolio and some blogs",
+        body: "This Ruby on Rails website, hosted in Heroku, was built to house contact information, a portfolio, and blogs. The contact information links to communication channels. The portfolio is for software projects. The blogs are musings for software and non-software topics.
+
+        Authentication has been applied through devise. Visitors can be guest users, or they can sign up for an account. This allows for login and logout options. The site admin is able to easily use CRUD to update the data. 
+        
+        Images are hosted through AWS S3.
+
+        The database used is PostgreSQL. The front end has been created with HTML, JavaScript, and SCSS. It is to be updated to React in the near future.
+        
+        Image from Maxwell Nelson on Unsplash
+        
+        Technologies used: Ruby on Rails, HTML, JavaScript, SCSS, Heroku, AWS S3",
         main_image: "https://via.placeholder.com/600x400",
         thumb_image: "https://via.placeholder.com/350x150"
     )
