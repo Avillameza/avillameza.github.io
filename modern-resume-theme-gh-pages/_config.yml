@@ -122,7 +122,7 @@ footer_show_references: true
 remote_theme: sproogen/resume-theme
 
 sass:
-  sass_dir: _sass
+  sass_dir: _sass /hoosegow/.bundle/ruby/2.7.0/gems/jekyll-theme-primer-0.6.0/_sass
   style: compressed
 
 plugins:
