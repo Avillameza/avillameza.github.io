@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Ana Villa
-title: Software Engineer
-email: villameza.ana@gmail.com
-# website: www.github.com/sproogen/resume-theme
+name: Brett Harris
+title: Senior Network System Administrator
+email: brett.h@email.co.uk
+website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
-# twitter_username: facespics
-github_username:  avillameza
+twitter_username: facespics
+github_username:  sproogen
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-# instagram_username: jameswgrant
-linkedin_username: ana-villa-03817367
+instagram_username: jameswgrant
+linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-# youtube_username: globalmtb
+youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,71 +48,69 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 
-  Hi, I'm Ana. I really enjoy making things, whether it be in a computer, machine shop, or sketchbook. 
-  I have diverse experience working in software, biotech, and machine shops. 
-
-  # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Focus LoFi
-        link: https://github.com/Avillameza/focus_lo_fi
+        title: Super awesome project
+        link: github.com/sproogen
         # link_text: Project Website
         additional_links:
-          - title:  Focus LoFi
+          - title:  sproogen/modern-resume-theme
             icon: fab fa-github
-            url: https://github.com/Avillameza/react_youtube
+            url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-           A responsive web app with an API to play Youtube playlists from the Youtube API with a <mark>Ruby on Rails</mark> backend and <mark>React</mark> frontend.
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Amplio Inc
-        # link: boringcompany.com
+        title: The Boring Company
+        link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Junior Software Engineer
-        caption: March 2022 - November 2022
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Senior Network System Administrator
+        caption: November 2017 - Present
+        quote: >
+          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Collaborated with operations, engineers, and clients in the full-stack deployment of a product in 3 months in an agile early-stage startup with CI/CD pipelines.
+            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvey Mudd College
-        caption: 2012 - 2016
-        sub_title: Engineering
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Harvard University
+        caption: 2010 - 2013
+        sub_title: BSc Computer Science
+        quote: >
+          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Mudd, I learned a lot about different engineering disciplines, from mechanical to software.
+          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          I was part of the Society of Women Engineers chapter from freshman to senior year, holding positions such as Events Coordinator and Co-president. 
+          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      In addition to my love of engineering, I also love drawing.
-      # - Drawing
-    
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Rock climbing
+      - Gaming
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      # - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-  
-      # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
@@ -122,7 +120,7 @@ footer_show_references: true
 remote_theme: sproogen/resume-theme
 
 sass:
-  sass_dir: _sass /hoosegow/.bundle/ruby/2.7.0/gems/jekyll-theme-primer-0.6.0/_sass
+  sass_dir: _sass
   style: compressed
 
 plugins:
