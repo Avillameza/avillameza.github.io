@@ -1,2 +1,45 @@
-title: Hello World
-# theme: minima
+# Personal info 
+name: Ana Villa 
+title: Software Engineer 
+email: villameza.ana@gmail.com 
+
+# Dark Mode (true/false/never) 
+# darkmode: true 
+
+# Social links 
+github_username: avillameza
+linkedin_username: ana-villa-03817367 
+
+# Additional icon links additional_links: 
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://www.itsgoingto.be
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, I'm Ana. I really enjoy making things, whether it be in a computer, 
+  machine shop, or sketchbook. I have diverse experience working in software, 
+  biotech, and machine shops. 
+  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark> 
+  
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Super awesome project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
