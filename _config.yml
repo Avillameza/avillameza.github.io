@@ -1,45 +1,90 @@
-# Personal info 
-# name: Ana Villa 
-title: Software Engineer 
-email: villameza.ana@gmail.com 
+details:
+  first_name: CV Generator
+  last_name: Yaml
 
-# Dark Mode (true/false/never) 
-# darkmode: true 
+  title: Generator of beautiful CVs and Resumes from YAML
 
-# Social links 
-github_username: avillameza
-linkedin_username: ana-villa-03817367 
+profile: |
+  This modular generator is used to generate a CV or resume, in HTML or PDF format.
+  The document consist of details parsed from a user-friendly YAML file.
+  This way skills, accomplishments and experienced can be detailed and kept tracked of
+  in a version-controlled manner, without the syntactic challenging of formatting and
+  styling the actual document
+contact:
+- text: johndoe@example.com
+  url: mailto:johndoe@example.com
+  icon: email
+- text: Berlin, Germany
+  icon: location
+- text: github.com/gmantaos/yaml-cv
+  url: https://github.com/gmantaos/yaml-cv
+  icon: github
 
-# Additional icon links additional_links: 
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+skills:
+  columns: 2
+  fields:
+  - name: First Skill
+    description: Skills can be detailed here in a custom number of columns.
+  - name: Second Skill
+    description: Lorem ipsum dolor sit amet, vel ei invidunt vituperatoribus, vide lorem labore eu sit.
+  - name: Third Skill
+    description: Descriptions of the skills are optional.
+  - name: Fourth Skill
 
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Ana. I really enjoy making things, whether it be in a computer, 
-  machine shop, or sketchbook. I have diverse experience working in software, 
-  biotech, and machine shops. 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark> 
+technical:
+  - category: Languages
+    items: C, C++, C#, HTML
+  - category: Frameworks
+    items: Node.js, React.js, Bootstrap, Pixi.js
 
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+sections:
+- name: Work Experience
+  items:
+
+  - title: Typographius Inc.
+    subtitle: Assosiate Placeholder
+    location: Berlin, Germany
+    from:
+      month: 6
+      year: 2018
+    to: Present
+    description:
+    - Subsections in experience and education can optionally have extended descriptions.
+    - An empty "to" date defaults to "Present".
+
+  - logo: img/company-logo.png
+    from:
+      month: 6
+      year: 2016
+    to:
+      month: 6
+      year: 2018
+    description:
+    - Logo images can also be used in the place of titles.
+    - Image paths are specified relative to the yaml file.
+    - They are read and embedded into the HTML in Base64 format, so the generated file can be viewed by itself without carrying around static assets.
+
+- name: Education
+  items:
+  - title: Institute of Typography
+    subtitle: Placeholder Engineering
+    location: Cambridge, UK
+    from:
+      month: 9
+      year: 2014
+    to:
+      month: 6
+      year: 2016
+    description:
+    - These descriptions are split into YAML lists.
+    - "&bull; HTML is supported so you can add bullets."
+    - ▸ Or other UTF8 characters.
+
+  - title: Institute of Typography
+    logo: img/bulb.png
+    subtitle: Placeholder Engineering
+    location: Cambridge, UK
+    description: Logos can also be used in combination with a titles.
+    from:
+      month: 9
+      year: 2014
