@@ -1,5 +1,5 @@
 # Personal info 
-name: Ana Villa 
+# name: Ana Villa 
 title: Software Engineer 
 email: villameza.ana@gmail.com 
 
@@ -23,7 +23,7 @@ about_content: | # this will include new lines to allow paragraphs
   machine shop, or sketchbook. I have diverse experience working in software, 
   biotech, and machine shops. 
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark> 
-  
+
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
