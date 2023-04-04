@@ -1,4 +1,4 @@
-<title align="center">Ana Villa</title>
+<h1 align="center">Ana Villa</h1>
 <table>
   <tbody>
     <tr>
