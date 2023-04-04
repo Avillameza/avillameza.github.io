@@ -19,12 +19,10 @@
         </ul>
       </td>
     </tr>
-    <tr>
-      <td><b>About Me</b></td>
+    <td><b>About Me</b></td>
       <td width="50%" rowspan="4">
         <p>Hi, I'm Ana. I really enjoy making things, whether it be in a computer, machine shop, or sketchbook. I have diverse experience working in software, biotech, and machine shops.</p>
         <p>When I'm not doing those things, you can find me drawing.</p>
-      </td>
-    </tr>
+    </td>
   </tbody>
 </table>
