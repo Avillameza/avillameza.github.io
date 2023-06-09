@@ -23,7 +23,7 @@
           <p><a href="./Pages/projects.md">Software Engineering Portfolio</a></p>
           <p><a href="https://villaanaengineering.files.wordpress.com/2018/05/ana-villa_engineering-portfolio.pdf">Non-software Engineering Portfolio</p>
           <p><a href="./Pages/qualifications.md">Skills</a></p>
-      </td>
+<!--       </td>
     </tr>
   </tbody>
-</table>
+</table> -->
